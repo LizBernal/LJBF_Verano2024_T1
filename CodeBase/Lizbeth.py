@@ -5,3 +5,4 @@ def obtener_frecuencia_relativa_acumulada(fr):
         suma += elemento
         frecuencias_acumuladas.append(suma)
     return frecuencias_acumuladas
+    

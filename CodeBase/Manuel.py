@@ -30,3 +30,4 @@ def calcular_estadisticas_intervalos(numeros):
 
     #Retornar
     return limite_inferior_A, limite_superior_A, marcas_clases
+    
