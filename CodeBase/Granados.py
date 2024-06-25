@@ -13,6 +13,7 @@ def fa_grouped(numeros, lim_inf, lim_sup):
         break  # No es necesario seguir recorriendo si el número ya está en una clase
 
   return frecuencias
+  
 
 
 

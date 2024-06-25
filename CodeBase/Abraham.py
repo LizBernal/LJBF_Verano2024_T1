@@ -15,3 +15,4 @@ def generar_tabla_distribucion_frecuencias(datos, lim_inf, lim_sup, marcas_clase
   tabla_completa = encabezado + linea_divisoria + cuerpo_tabla + linea_divisoria
 
   return tabla_completa
+  

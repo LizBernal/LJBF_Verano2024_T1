@@ -11,6 +11,7 @@ def generar_poligono_frecuencias(frecuencia_relativa, clases_sorted, marcas_clas
     #leyendas para las marcas de clase
     marcas_textos = clases_sorted
     
+    
     # Poligono de frecuencias con:
     # - Estilo de linea punteado (lenestyle ":"). https://matplotlib.org/stable/gallery/lines_bars_and_markers/linestyles.html
     # - Marcador con forma triangular (marker = "v"). https://matplotlib.org/stable/api/markers_api.html

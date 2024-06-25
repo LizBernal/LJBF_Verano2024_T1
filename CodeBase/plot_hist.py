@@ -10,6 +10,8 @@ def generar_histograma(marcas_clase, frecuencia, clases_sorted, labelx, labely, 
 
     """
     # Configurar figura y tamaño
+
+    
     plt.figure(figsize=(12, 6))
 
     # Histograma con barras ajustadas al 100%, contorno negro y colores específicos

@@ -18,6 +18,7 @@ def generar_diagrama_barras_horizontal(fa_sorted, clases_sorted, marcas_clase, l
     plt.barh(marcas_clase, fa_sorted, height=0.8, edgecolor="k",
             color=["#FF5733", "#33FFF3", "#FF33F9", "#3339FF", "#E6FF33", "#FF3346"])
 
+
     # Personalizar marcas del eje Y (inclinadas 45°) y tamaño de fuente
     plt.yticks(marcas_clase, clases_sorted, fontsize=15, rotation=45)
 

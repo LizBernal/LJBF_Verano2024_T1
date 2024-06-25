@@ -10,3 +10,4 @@ def generar_pastel(clases_sorted, datos, titulo):
            )
     plt.title(titulo, fontsize=40)
     plt.show() 
+    

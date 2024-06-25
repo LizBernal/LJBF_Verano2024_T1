@@ -9,3 +9,4 @@ def obtener_frecuencia_relativa(arreglo):
       
     frecuencia_relativa.append(elemento / sum(arreglo)*100)
   return frecuencia_relativa
+  

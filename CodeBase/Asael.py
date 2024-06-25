@@ -17,3 +17,4 @@ def sort_clases_fa(clases_originales, clases_sorted, fa_absolutas):
         fa_sorted.append(fa)
 
     return fa_sorted
+    

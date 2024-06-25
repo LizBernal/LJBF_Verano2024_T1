@@ -8,3 +8,4 @@ def obtener_indices(arreglo_entrada):
   return arreglo_salida
 
 
+

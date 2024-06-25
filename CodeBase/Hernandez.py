@@ -6,3 +6,4 @@ def ordenar_cadenas(cadenas_formateadas):
         cadenas_formateadas[i], cadenas_formateadas[j] = cadenas_formateadas[j], cadenas_formateadas[i]
 
   return cadenas_formateadas
+  

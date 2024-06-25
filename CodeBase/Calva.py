@@ -26,3 +26,4 @@ def formateando_str(nombres):
     nombres_formateados.append(nombre_final)
 
   return nombres_formateados
+  

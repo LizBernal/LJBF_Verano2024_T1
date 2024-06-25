@@ -25,3 +25,9 @@ def generar_tabla(clases, frec_absoluta, frec_relativa, frec_rel_acumulada):
   # Mostrar la tabla
   print(df.to_string())
 
+
+
+
+
+  
+

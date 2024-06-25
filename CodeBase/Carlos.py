@@ -18,3 +18,4 @@ def ordenar_asc(arreglo):
         arreglo[i], arreglo[min_idx] = arreglo[min_idx], arreglo[i]         
 
     return arreglo
+    

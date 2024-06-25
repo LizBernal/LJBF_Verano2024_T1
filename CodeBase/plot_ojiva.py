@@ -26,3 +26,4 @@ def generar_ojiva(marcas_clase, frecuencia_relativa_acumulada, clases_sorted, la
     plt.show() # Se muestra el grafico en pantalla 
 
 
+
