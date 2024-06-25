@@ -2,7 +2,7 @@ def generar_tabla_distribucion_frecuencias(datos, lim_inf, lim_sup, marcas_clase
 
 
   # Encabezado de la tabla
-  encabezado = "| N°| LimInf | LimSup| MarcaC| fa | fr | Facum |\n"
+  encabezado = "| N°| LimInf | LimSup| MC| Fa | Fr | Facum |\n"
   linea_divisoria = "|---|--------|--------|-------|----|----|-----|\n"
 
   # Cuerpo de la tabla

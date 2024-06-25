@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-def generar_histograma(marcas_clase, frecuencia, clases_sorted, labelx, labely, titulo):
+def generar_histograma(frecuencia_relativa, frecuencia, clases_sorted, labelx, labely, titulo):
     """
     Genera un histograma con las características especificadas.
 
@@ -9,17 +9,17 @@ def generar_histograma(marcas_clase, frecuencia, clases_sorted, labelx, labely, 
         clases_sorted: Lista con los nombres de las clases (textos para las marcas).
 
     """
-    # Configurar figura y tamaño
+    # Configurar figura y tamaños
 
     
     plt.figure(figsize=(12, 6))
 
     # Histograma con barras ajustadas al 100%, contorno negro y colores específicos
-    plt.bar(marcas_clase, frecuencia, width=1, edgecolor="k",
+    plt.bar(frecuencia_relativa, frecuencia, width=1, edgecolor="k",
             color=["#FF5733", "#33FFF3", "#FF33F9", "#3339FF", "#E6FF33", "#FF3346"])
 
     # Personalizar marcas del eje X (inclinadas 45°) y tamaño de fuente
-    plt.xticks(marcas_clase, clases_sorted, fontsize=15, rotation=45)
+    plt.xticks(frecuencia_relativa, clases_sorted, fontsize=15, rotation=45)
 
     # Etiquetas y título del gráfico con tamaño de fuente grande
     plt.xlabel(labelx, fontsize=25)
